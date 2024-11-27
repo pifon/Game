@@ -33,14 +33,15 @@ docker run -d --name laravel \
 ```
 
 .env needs:
-`
+
+```
 #DB_CONNECTION=sqlite
 DB_CONNECTION=mariadb
 DB_HOST=mariadb
 DB_PORT=3306
 DB_DATABASE=bitnami_myapp
 DB_USERNAME=bn_myapp
-`
+```
 
 At this point http://localhost should display laravel 11 welcome page
 
